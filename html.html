@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification">
+  <script src="jquery-3.7.1.min.js"></script>
+
+  <title>Document</title>
+  <style>
+   #logo{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+
+   }
+   #footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+   }
+   #profil{
+    border-radius: 50%;
+    
+   } 
+   #header{
+    text-align: center;
+    color:aliceblue;
+   }
+   #searchInput{
+    width: 300px;
+    height: 40px;
+    border-radius:15px 0px 0px 15px ;
+   }
+   #searchButton{
+    height: 45px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: black;
+   }
+   #results{
+    background-color:rgb(203, 203, 201);
+    width: 300px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    
+
+    
+   }
+   body{
+    background-color: rgba(1, 1, 16, 0.909);
+   }
+   span{
+    color: azure;
+   }
+   #searchInput:focus{
+    outline: solid white 3px;
+   }
+   
+
+  </style>
+</head>
+<body>
+  <div id="header">
+
+    <h1>Search GitHub Profile </h1>
+    
+  <input type="text" id="searchInput" placeholder="Enter GitHub username...">
+  <button id="searchButton"><span>SEARCH USER</span> </button>
+
+  </div>
+
+  <div id="results"></div>
+  <footer>
+    <div id="footer">
+      <p>made with <img id="logo" src="heart2.jpeg" alt="">Instgram: <a href="https://www.instagram.com/bilal_bt04/">bilal boutteicha </a></p>
+    </div>
+  </footer>
+
+  
+  <script src="javaS.js"></script>
+</body>
+</html>
